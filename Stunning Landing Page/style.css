@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .logo {
+    height: 70px;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    /* padding: 10px 20px; */
+    margin: 0px 20px;
+  }
+  nav ul li a {
+    color:rgb(179, 172, 172);
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  nav ul li a:hover {
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+  .hover-line::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #8071d0;
+    transition: 0.4s;
+  }
+  .hover-line:hover::after {
+    width: 100%;
+    transition: width 0.4s;
+  }
+  
+  .button1 {
+    border: none;
+    background: #ffd8db;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: #5e3b98;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  .button1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .landing-section {
+    float: right;
+    width: 60%;
+  
+    padding: 100px;
+  }
+  h1 {
+    font-size: 80px;
+    padding: 80px;
+  }
+  .h1button {
+    border: none;
+    background: #8071d0;
+    width: 15px;
+    height: 15px;
+  }
+  p {
+    font-size: 20px;
+    padding-left: 90px;
+    color: rgb(102, 97, 97);
+  }
+  .btn {
+    display: flex;
+    padding-left: 90px;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .button2 {
+    border: none;
+    background: #5243c0;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: #fff;
+    font: 20px;
+    transition: 0.4s;
+  }
+  
+  .button2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .arrow {
+    padding: 10px;
+  }
+  .table {
+    width: 50%;
+    height: 10%;
+    padding: 100px;
+  }
+  
+  td img {
+    padding: 20px;
+  }
+  
+  td button {
+    width: 20px;
+    height: 10px;
+    margin-left: 18px;
+    border: none;
+    background-color: pink;
+    border-radius: 15px;
+  }
+  .btn2 {
+    background-color: #fd6534;
+  }
+  .btn3 {
+    background-color: #9ed095;
+  }
+  .btn4 {
+    background-color: #ffe4a0;
+  }
+  
+  .transition1:hover {
+    color: #5243c0;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 5px 5px 10px 4px rgba(211, 210, 216, 0.5);
+    border-radius: 15px;
+  }
+  
